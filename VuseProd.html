@@ -5,103 +5,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>vuseProd</title>
 </head>
 
 <body>
-    <div id="envoltorioPagina">
-        <header id="header">
-            <div class="Logo">
-                <img id="header-img"
-                    src="https://content-eu-live-global.prod.marketing.bat.net/media/wysiwyg/vuse-logo-new_1_.png"
-                    alt="Logo de Vuse" />
-            </div>
-            <nav id="nav-bar">
-                <ul>
-                    <li> <a class="nav-link" href="#caracteristicas">Caracteristicas</a></li>
-                    <li> <a class="nav-link" href="#comoFunciona">¿Como Funciona?</a></li>
-                    <li> <a class="nav-link" href="#precios">Precios</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header id="header">
+        <div class="Logo">
+            <img class="header-img" id="header-img"
+                src="https://content-eu-live-global.prod.marketing.bat.net/media/wysiwyg/vuse-logo-new_1_.png"
+                alt="Logo de Vuse" />
+        </div>
+        <nav id="nav-bar">
+            <ul class="menu">
+                <li class="lista"><a href="VuseProd.html">Inicio</a></li>
+                <li class="lista"><a href="#">¿Como Funciona?</a></li>
+                <li class="lista"><a href="">Precios</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <main>
+    <main>
 
 
-            <section id="enterEmail">
-                <h3>No fumes, Vapea con Vuse</h3>
-                <form id="form" action=" https://www.reecodecamp.com/email-submit">
-                    <input name="email" id="email" type="email" placeholder="Dejanos tu correo electronico" required />
+        <section id="enterEmail">
+            <h3>No fumes, Vapea con Vuse</h3>
+            <form id="form" action=" https://www.reecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Dejanos tu correo electronico" required />
 
-                    <input id="submit" type="submit" value="Vapea con Vuse" class="btn" />
+                <input id="submit" type="submit" value="Vapea con Vuse" class="btn" />
 
-                </form>
+            </form>
+        </section>
+
+        <div class="container">
+            <section id="caracteristicas">
+                <div class="grid">
+
+                    <div class="descripcion">
+                        <h2>Materiales de primera</h2>
+                        <p>Nuestros productos estan fabricados en Aluminio y plastico, lo que hace que sean mas
+                            duraderos</p>
+                    </div>
+                </div>
+                <div class="grid">
+
+                    <div class="descripcion">
+                        <h2>Envios en tiempo record</h2>
+                        <p>Te aseguramos que tus compras llegaran en menos de 24hrs</p>
+                    </div>
+                </div>
+                <div class="grid">
+
+                    <div class="descripcion">
+                        <h2>Variedad de sabores</h2>
+                        <p>Tenemos una gran variedad de esencias en nuestros pods para que elijas</p>
+                    </div>
+                </div>
+            </section>
+            <section id="comoFunciona">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZcH-GuT4aq8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </section>
 
-            <div class="container">
-                <section id="caracteristicas">
-                    <div class="grid">
-                        <div class="icon"> <i class="prod"></i></div>
-                        <div class="descripcion">
-                            <h2>Materiales de primera</h2>
-                            <p>Nuestros productos estan fabricados en Aluminio y plastico, lo que hace que sean mas
-                                duraderos</p>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <div class="icon"> <i class="envios"></i></div>
-                        <div class="descripcion">
-                            <h2>Envios en tiempo record</h2>
-                            <p>Te aseguramos que tus compras llegaran en menos de 24hrs</p>
-                        </div>
-                    </div>
-                    <div class="grid">
-                        <div class="icon"> <i class="sabores"></i></div>
-                        <div class="descripcion">
-                            <h2>Variedad de sabores</h2>
-                            <p>Tenemos una gran variedad de esencias en nuestros pods para que elijas</p>
-                        </div>
-                    </div>
-                </section>
-                <section id="comoFunciona">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZcH-GuT4aq8"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </section>
-                <section id="precios">
-                    <div class="productos" id="ePods">
-                        <div class="level"> ePods </div>
-                        <h2>$20.000</h2>
-                        <p>
-                            La evolución del vapeo llega con Vuse ePod 2
-                            Practicidad para usarlo en cualquier lugar y batería de alto rendimiento que se activa al
-                            vapear.
-                        </p>
-                        <button class="btn">Comprar</button>
-                    </div>
-                    <div class="productos" id="pods">
-                        <div class="level"> Pods </div>
-                        <h2>$14.000</h2>
-                        <p>
-                            ¡Opciones para todos los gustos!
-                            Nosotros llamamos pods a lo que muchos llaman cartuchos, caps o líquidos para vapear.
-                        </p>
-                        <button class="btn">Comprar</button>
-                    </div>
-                    <div class="productos" id="combos">
-                        <div class="level"> Combos </div>
-                        <h2>$33.000</h2>
-                        <p>
-                            ¡Descubre nuestros combos Vuse! Diferentes maneras de vapear, ¡Tu decides como armarlos!.
-                        </p>
-                        <button class="btn">Comprar</button>
-                    </div>
-                </section>
+            <div class="container-table">
+                <table id="table-card">
+                    <thead>
+                        <tr>
+                            <th><h2>ePods</h2></th>
+                            <th><h2>Pods</h2></th>
+                            <th><h2>Combos</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabla-precios">
+                        <tr>
+                            <td><h3>$20.000</h3></td>
+                            <td><h3>$14.000</h3></td>
+                            <td><h3>$33.000</h3></td>
+                        </tr>
+                        <tr>
+                            <td>La evolución del vapeo llega con Vuse ePod 2
+                                Practicidad para usarlo en cualquier lugar y batería de alto rendimiento que se activa
+                                al
+                                vapear.</td>
+                            <td>¡Opciones para todos los gustos!
+                                Nosotros llamamos pods a lo que muchos llaman cartuchos, caps o líquidos para vapear.
+                            </td>
+                            <td>¡Descubre nuestros combos Vuse! Diferentes maneras de vapear, ¡Tu decides como
+                                armarlos!.</td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn" id="btn-comprar">Comprar</button></td>
+                            <td><button class="btn" id="btn-comprar">Comprar</button></td>
+                            <td><button class="btn" id="btn-comprar">Comprar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </main>
-    </div>
+            
+    </main>
+
 
     <footer>
         <ul>

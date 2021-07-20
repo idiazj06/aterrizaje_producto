@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@300&family=Righteous&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #111516;
+    font-family: 'Lato', sans-serif;
+}
+
+div .logo {
+    width: 60vw;
+}
+
+header {
+    background-color: #111516;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.header-img {
+    width: 200px;
+    height: auto;
+    margin-top: 60px;
+}
+
+nav {
+    background-color: #111516;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu .lista {
+    display: inline-block;
+}
+
+.lista a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+
+.lista a:hover {
+    color: #ffbb07;
+    transition: background-color 1s;
+}
+
+#enterEmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    color: rgb(255, 255, 255);
+}
+
+#enterEmail input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 0 15px;
+    height: 30px;
+    font-size: 0.8em;
+    font-weight: 550;
+    text-transform: uppercase;
+    border: 29px whitesmoke;
+    border-radius: 10px;
+    background: whitesmoke;
+    margin: 15px auto;
+}
+
+.btn:hover {
+    background-color: #ffbb07;
+    transition: background-color 1s;
+
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    background-color: #00fff6;
+    color: #111516;
+    width: 70vw;
+    margin: auto;
+}
+
+#caracteristicas .descripcion {
+    width: 100vw;
+    height: 10vh;
+    margin: 10px auto;
+}
+
+#comoFunciona {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+#comoFunciona>iframe {
+    width: 100%;
+    max-width: 720px;
+}
+
+table{
+    display: fixed;    
+    width: 90vw;
+    margin: 40px 20px 10px 60px;
+    border-radius: 10px;
+    border: 3px solid #ffbb07;
+    color: whitesmoke;
+    border-collapse:separate ;
+    position: absolute;
+}
+
+thead{
+    background-color: #ffbb07;
+}
+
+th>h2{
+    margin: 5px;
+}
+
+td>h3{
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+#precios {
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 33.33%;
+    margin: 8px;
+    border-radius: 10px;
+    border: 2px solid #ffbb07;
+}
+
+.productos>.level {
+    background-color: #ffbb07;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 7px;
+}
+
+h2,p{
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 0 15px;
+    height: 30px;
+    font-size: 0.8em;
+    font-weight: 550;
+    text-transform: uppercase;
+    border: 29px whitesmoke;
+    border-radius: 10px;
+    background: whitesmoke;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    background-color: #ffbb07;
+    transition: background-color 1s;
+}
