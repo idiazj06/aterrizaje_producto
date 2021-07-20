@@ -56,6 +56,21 @@ nav {
     transition: background-color 1s;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffbb07;
+    transition: background-color 1s;
+}
+
+
 #enterEmail {
     display: flex;
     flex-direction: column;
@@ -124,31 +139,6 @@ main {
     max-width: 720px;
 }
 
-table{
-    display: fixed;    
-    width: 90vw;
-    margin: 40px 20px 10px 60px;
-    border-radius: 10px;
-    border: 3px solid #ffbb07;
-    color: whitesmoke;
-    border-collapse:separate ;
-    position: absolute;
-}
-
-thead{
-    background-color: #ffbb07;
-}
-
-th>h2{
-    margin: 5px;
-}
-
-td>h3{
-    margin: 5px;
-}
-
-
-
 
 
 
@@ -200,3 +190,30 @@ h2,p{
     background-color: #ffbb07;
     transition: background-color 1s;
 }
+
+footer {
+    margin-top: 35px;
+    padding: 20px;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer>ul>li {
+    padding: 0 20px;
+    list-style: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #ffbb07;
+    transition: background-color 1s;
+}
+
