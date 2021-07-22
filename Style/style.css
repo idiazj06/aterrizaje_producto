@@ -4,9 +4,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-#envoltorioPagina {
-    position: relative;
-}
 
 header {
     position: fixed;
@@ -15,12 +12,12 @@ header {
     min-height: 75px;
     height: 25%;
     padding: 20px 20px;
-    display: flex;
+    display:contents;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(255, 205, 40);
-    z-index: 999;
     background-color: #111516;
+    z-index: 999;
+    left: 0;
     text-align: center;
     
 }
@@ -32,9 +29,11 @@ header {
 .header-img{
     width: 150px;
     height: auto;
-    margin-top: 40px;
+    margin-top: 60px;
+    
+        
 }
-.logo> .header-img{
+.logo  .header-img{
     width: 100%;
     height: 100%;
     max-width: 300px;
@@ -44,13 +43,15 @@ header {
     text-align: center;
     flex-wrap: wrap;
     
+    
 }
 
 nav {
     background-color: #111516;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0;
+    left: 0;
 }
 
 .menu {
@@ -92,11 +93,11 @@ a:hover {
     justify-content: center;
     text-align: center;
     height: 200px;
-    margin-top: 280px;
+    
     color: rgb(255, 255, 255);
 }
 
-#enterEmail>h3 {
+#enterEmail h3 {
     margin-bottom: 10px;
 }
 
@@ -223,15 +224,43 @@ a:hover {
     transition: background-color 1s;
 }
 
-@media (max-width:600px) {
-    header {
-        width: 100%;
+@media screen and (max-width: 640px) {
+    header{
+        width: auto;
         height: auto;
-        flex-wrap: wrap;
-        display: block;
-        
-        text-align: center;
-        align-items: center;
-        align-content: center   ;
     }
+
+    #enterEmail{
+        width: auto;
+        height: auto;
+        margin-top: 80px;
+        
+    }
+
+    .header-img{
+        max-width: 150px;
+        width: auto;
+        height: auto;
+        margin-top: 100px;
+       
+    }
+
+    #caracteristicas {
+        width: auto;
+        height: auto;      
+        
+    }
+
+    #video{
+        max-width: 620px;
+        width: auto;
+        
+    }
+
+    #precios{
+        width: auto;
+        height: auto; 
+    }
+
+
 }
